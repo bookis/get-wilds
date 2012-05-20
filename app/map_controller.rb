@@ -1,7 +1,6 @@
 class MapController < UIViewController
   
   def viewDidLoad
-    MapState.currentPins = []
     @mapView = MKMapView.alloc.initWithFrame(view.bounds)
     @mapView.setShowsUserLocation(true)
     view.addSubview @mapView
@@ -12,7 +11,6 @@ class MapController < UIViewController
   end
   
   def mapView(mapView, regionDidChangeAnimated: animated)
-    NSLog "Map Moved"
     set_pins mapView.centerCoordinate
   end
   

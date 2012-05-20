@@ -5,7 +5,7 @@ class MapState
   end
   
   def self.addPin(id)
-    # currentPins(currentPins << id)
+    self.currentPins = (currentPins.map.to_a << id)
   end
   
   def self.currentPins
