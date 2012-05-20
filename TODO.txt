@@ -1,0 +1,25 @@
+Constants
+ Current Lat/Lng Dict
+ Current Map State
+  Array of pins
+  Map center Lat/lng
+    
+Pin
+ Lat
+ Lng
+ Name
+ Image
+ # of Notes
+ Distance from Current Lat/Lng
+ 
+Api
+  index
+    Name
+    Lat
+    Lng
+    Avatar
+    # Notes
+    Public/Private
+    
+    
+  
